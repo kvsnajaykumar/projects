@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocationZip</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <section class="hero hero-body is-dark container">
+        <h1 class="title">US Location Info</h1>
+        <h2 class="subtitle">Enter a zipcode to get the location info</h2> 
+        <form id="zipForm">
+          <div class="field">
+            <div class="control has-icons-left has-icons-right">
+              <input class="input zip is-large" type="text" placeholder="Enter Zipcode">
+              <span class="icon is-small is-left">
+                  <i class="fa fa-map-pin"></i>
+                </span>
+              <span class="icon is-small is-right icon-check">
+                  <i class="fa fa-check"></i>
+                </span>
+              <span class="icon is-small is-right icon-remove">
+                  <i class="fa fa-remove"></i>
+                </span>
+            </div>
+          </div>
+        </form>
+      </section>
+      
+      <br>
+      <div class="container">
+        <div id="output"></div>
+      </div>
+    
+</body>
+</html>
